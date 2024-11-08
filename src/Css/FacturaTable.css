@@ -1,0 +1,208 @@
+.header-container{
+    /* background-color: yellow; */
+    padding: 15px 0px;
+    width: 1100px;
+    margin-left: 10px;
+}
+
+.mostrarDatos{
+  border: none;
+}
+.header-container > .headerFacturaTop{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.fila-detalleFactura{
+    /* background-color: orange; */
+    width: 30%;
+}
+
+.fila-detalleFactura > h2{
+    color: #81BB49;
+}
+.fila-detalleFactura > p{
+    color: #007F8C;
+    font-weight: bold;
+}
+.fila-detalleFactura2{
+    /* background-color: rebeccapurple;  */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding-right: 0px;
+}
+.fila-TopButton{
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0px;
+    width: 100%;
+    justify-content: end;
+    padding-right: 0px;
+}
+.fila-BotButton{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+}
+.filtrosTablaFacturabreve{
+  /* background-color: orange; */
+  display: flex;
+  justify-content: end;
+  margin-right: -20px;
+  margin-left: 25px;
+}
+.AgregarFactura{
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #81BB49;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+/* .AgregarFactura:hover{
+  background-color: black;
+} */
+.containerTable{
+    /* background-color: orange; */
+    width: 100%;
+}
+/* Tabla */
+.datosTable {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  
+  .datosTable th, .datosTable td {
+    padding: 5px;
+    text-align:center;
+    border-bottom: 1px solid #EEEEEE;
+  }
+  
+  .datosTable th {
+    background-color: #fff;
+    color: #38519E;
+  }
+  
+  .datosTable td {
+    background-color: white;
+  }
+  
+  .datosTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+ 
+  .tablaButtonRegistro {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .editbutton {
+    /* background-color: #ffc107;
+    color: white; */
+    margin-right: 5px;
+  }
+  
+  .editbutton:hover {
+    background-color: #e0a800;
+  }
+  
+  .deletebutton {
+    /* background-color: #dc3545;
+    color: white; */
+  }
+  
+  .deletebutton:hover {
+    background-color: #c82333;
+  }
+  
+  /* Paginación */
+  /* FacturaTable.css */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  /* background: #81BB49; */
+  margin: 0 5px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #007f8c;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+}
+
+/* .pagination button:hover {
+  background: #68A837;
+} */
+
+/* .pagination button:disabled {
+  background: #E0E0E0;
+  cursor: not-allowed;
+} */
+.pagination .arrow:hover {
+  background-color: #ddd;
+}
+.pagination .active {
+  background: #81BB49;
+  font-weight: bold;
+  color: white;
+}
+
+.pagination .arrow {
+  background: transparent;
+  color: #81BB49;
+  font-size: 18px;
+}
+
+.pagination .arrow {
+  background: transparent;
+  color: #81BB49;
+  font-size: 13px;
+}
+
+  
+  /* Snackbar */
+  .MuiSnackbar-root {
+    bottom: 20px;
+  }
+ 
+ 
+
+  .buttonImg {
+    margin-left: 5px;
+    width: 20px;
+    padding: 4px;
+    
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .buttonImg:hover {
+    transform: scale(1.5);
+  }
+  .comisionesbrevesubtitulo{
+    /* background-color: orange; */
+    font-size: 25px;
+    text-align: start;
+    margin: 0px;
+  }
+  
+  

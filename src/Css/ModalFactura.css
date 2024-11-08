@@ -1,0 +1,114 @@
+/* ModalFactur.css */
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+
+  .modalForm{
+    /* background-color: orange; */
+    padding: 5px;
+  }
+  .tituloModal{
+    color: #81BB49;
+    padding: 10px 0px;
+    margin-left: 5px;
+  }
+
+  .fila2{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  .form-group2{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+  }
+  .form-group2 > .form-input2{
+    padding: 14px;
+    border-radius: 7px;
+    border: 2px solid #38519E;
+    width: 180px;
+    margin-left: 0px;
+  }
+  .buttonModal{
+    border: none;
+    padding: 15px 0px;
+    margin-left: 30px;
+    width: 120px;
+    background-color: #81BB49;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  /* .buttonModal:hover{
+    background-color: black;
+  } */
+  .containerbuttonModal{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: end;
+   
+    
+  }
+  #form-select{
+    width: 180px;
+  }
+  .form-input2:disabled{
+    background-color: #f8f6f6ec;
+   
+  }
+  .labelFormModul{
+    color: #666666;
+  }
+  
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#inputAsegurado2{
+  width:630px;
+  /* background-color: #38519E; */
+}
+
+
+
+#active-border {
+  border: none; /* Cambia el color y estilo según tu preferencia */
+  box-shadow: 1px 1px 1px 2px rgb(243, 237, 237);
+}
+#active-border:focus {
+  outline: none;
+}

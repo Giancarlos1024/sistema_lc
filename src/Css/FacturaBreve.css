@@ -1,0 +1,151 @@
+.GeneralDivFactura {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.HeaderComisiones {
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.headerTop {
+    width: 30%;
+}
+
+.headerTop > h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #81BB49;
+}
+
+.headerTop > p {
+    color: #007f8c;
+    font-weight: bold;
+}
+
+.filtrosTable {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#filtrobreve{
+    margin-right: 40px;
+}
+.buscadorFiltros {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+}
+
+.buscadorFiltros > .buscardorinput {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #81BB49;
+    width: 200px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.buscarIcon {
+    position: absolute;
+    left: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.mostrarDatos {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 15px;
+}
+
+#reporteExcelFacturabreve {
+    border: none;
+    background-color: #fff; 
+    color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight:600;
+    
+}
+#filtroFacturabreve{
+    margin-right: 5px;
+}
+.containerDescargar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: #007f8c; */
+    padding: 2px;
+    margin-right: 0px;
+    
+
+}
+
+.facturaTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.facturaTable th, .facturaTable td {
+    padding: 5px;
+    text-align:center;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.facturaTable th {
+    background-color: #fff;
+    color: #38519E;
+}
+
+.facturaTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.facturaTable tr:hover {
+    background-color: #eaeaea;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button{
+    margin: 0 5px;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: #007f8c;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .pagination a:hover {
+    background-color: #ddd;
+  } */
+  
+  .pagination button.active {
+    background-color: #81BB49;
+    color: white;
+  }
+  .comisionesbrevesubtitulo{
+    /* background-color: orange; */
+    text-align: start;
+  }

@@ -1,0 +1,124 @@
+
+
+/*MEJORANDO EL DISEÑO*/
+
+
+.containerFormulario{
+  /* background-color: #df4b4b; */
+  padding: 5px;
+  margin: 25px 50px;
+}
+
+
+/*CONTENEDOR GENERAL*/
+.form-section{
+  /* background-color: yellow; */
+  margin-top: 25px;
+}
+/*FORMULARIO*/
+.detallefacturaheader{
+  display: flex;
+  justify-content: space-between;
+  color: #81BB49;
+  /* background-color: #666666; */
+  
+}
+
+.fila{
+  display: flex;
+  margin-bottom: 20px;
+  /* background-color: yellow; */
+}
+.form-group{
+  /* background-color: aqua; */
+  margin-right: 45px;
+
+}
+/*REVISAR DETALLADAMENTE ESTE ESTILO*/
+.form-group > .form-input{
+  padding: 14px;
+  border-radius: 7px;
+  border: 2px solid #38519E;
+  width: 200px;
+  margin-left: 0px;
+
+}
+.ingresarLabelFactura{
+  color:  #666666;
+}
+#inputAsegurado{
+  width:690px;
+}
+
+.regresoImgbutton{
+  /* background-color: #c2c5cc; */
+  margin-right: 10px;
+}
+.buttonRegresar{
+
+  border: none;
+  padding: 0px 30px;
+  border-radius: 25px;
+  color: #38519E;
+  border: 1px solid #38519E;
+  background-color: #fff;
+  font-weight:bold;
+  cursor: pointer;
+  margin-right: 84px;
+  display: flex;
+  align-items: center;
+  
+}
+.buttonRegresar > .regresarDiv{
+  display: flex;
+  flex-direction: row;
+}
+/* .buttonRegresar:hover{
+  background-color: black;
+  color: #fff;
+} */
+
+.button-container{
+  /* background-color: #38519E; */
+  display: flex;
+  justify-content: end;
+}
+.buttonFacturaForm{
+  border: none;
+  padding: 15px 25px;
+  margin-right: 84px;
+  width: 180px;
+  background-color: #81BB49;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+/* .buttonFacturaForm:hover{
+  background-color: black;
+} */
+/* FormFactura.css */
+
+/* Cambia el color de fondo de los elementos deshabilitados */
+.form-input:disabled {
+  background-color: #f8f6f6ec; /* Puedes cambiar este color por el que prefieras */
+ 
+}
+/* FormFactura.css */
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* En tu archivo CSS (FormFactura.css) */
+#active-border {
+  border: none; /* Cambia el color y estilo según tu preferencia */
+  box-shadow: 1px 1px 1px 2px rgb(243, 237, 237);
+}
+#active-border:focus {
+  outline: none;
+}
+
+
